@@ -8,6 +8,10 @@ def turn_count(board)
   return count
 end
 
+<<<<<<< HEAD
 def current_player(board)
   return turn_count(board) % 2 == 0 ? "X" : "O"
 end
+=======
+def current_play
+>>>>>>> b7f95a8bd5955a67f25438de76b412c30efedd3e
